@@ -4,32 +4,38 @@ export default function Home() {
   return (
     <main>
       <header>
-        <nav>
-          <div>
+        <nav className="h-22 flex items-center">
+          <div className="header-links">
             <a href="#">Startseite</a>
             <a href="#">Kurse</a>
             <a href="#">Ausbildung</a>
             <a href="#">Über mich</a>
             <a href="#">Mehr entdecken</a>
           </div>
-          <a href="#"><img src="#" alt="English" /></a>
-          <div>
-            <img src="#" alt="Kaeswurm Logo" />
+          <a className="ml-auto px-7" href="#"><img src="lang-uk.svg" alt="English" /></a>
+          <div className="w-50 h-full flex items-center justify-center bg-[var(--kw-red)]">
+            <img className="p-4 max-h-full" src="kaeswurm-logo.svg" alt="Kaeswurm Logo" />
           </div>
+          
         </nav>
         <section id="hero">
-          <div>
-            <h1>Line Dance lernen mit Cheesy ist easy!</h1>
-            <a href="#" className="button">Aktuelle Events</a>
-          </div>
-          <div>
-            <img src="#" alt="Cheesy instructing on an event" />
-          </div>
+            <h1>
+              Line Dance lernen <br />
+              mit Cheesy ist <br />
+              easy!
+            </h1>
+            <a className="button mt-6" href="#">Aktuelle Events</a>
+            <Image 
+              src='/images/home-hero.jpg'
+              alt="Cheesy instructing on an event"
+              fill
+              style={{ objectFit: 'cover', zIndex: -1 }}
+            />
         </section>
+        
       </header>
 
       <section id="fact-ticker">
-        <div>
           <blockquote>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</blockquote>
           <blockquote>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</blockquote>
           <blockquote>Ich liebe es, Menschen durch Bewegung zu verbinden.</blockquote>
@@ -37,7 +43,6 @@ export default function Home() {
           <blockquote>Platzhalter 2</blockquote>
           <blockquote>Platzhalter 3</blockquote>
           <blockquote>Platzhalter 4</blockquote>
-        </div>
       </section>
 
       <section id="Home-Content">
@@ -74,7 +79,7 @@ export default function Home() {
           <a href="#" className="button">Jetzt entdecken</a>
         </div>
         <div>
-          <h2>Extras</h2>
+          <h2>Buch</h2>
           <img src="#" alt="Depiction of the Line Dance Book" />
         </div>
 
@@ -106,11 +111,11 @@ export default function Home() {
               </li>
               <li>
                 <p>Instagram:</p>
-                <a href="instagram.com/astrid_kaeswurm">@astrid_kaeswurm</a>
+                <a href="https://www.instagram.com/astrid_kaeswurm">@astrid_kaeswurm</a>
               </li>
               <li>
                 <p>Facebook:</p>
-                <a href="https://www.facebook.com/LD.Cheesy/">Astrid Kaeswurm</a>
+                <a href="https://www.facebook.com/LD.Cheesy">Astrid Kaeswurm</a>
               </li>
             </ul>
           </div>
@@ -126,9 +131,18 @@ export default function Home() {
 
         <hr />
 
-        <div id="contact-information-2"></div>
-        <p>© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
+        <div id="contact-information-2">
+          <p>© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
 
+          <div>
+            <div>
+              <a href="https://www.instagram.com/astrid_kaeswurm"><img src="#" alt="Instagram Logo" /></a>
+              <a href="https://www.facebook.com/LD.Cheesy"><img src="#" alt="Facebook Logo" /></a>
+            </div>
+            <a href="#">Datenschutz</a>
+            <a href="#">Impressum</a>
+          </div>
+        </div>
 
       </footer>
     </main>
