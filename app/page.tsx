@@ -29,29 +29,43 @@ export default function Home() {
               src='/images/home-hero.jpg'
               alt="Cheesy instructing on an event"
               fill
-              style={{ objectFit: 'cover', zIndex: -1 }}
+              className="hero-bg object-cover"
             />
         </section>
         
       </header>
 
       <section id="fact-ticker">
-          <blockquote>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</blockquote>
-          <blockquote>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</blockquote>
-          <blockquote>Ich liebe es, Menschen durch Bewegung zu verbinden.</blockquote>
-          <blockquote>Platzhalter 1</blockquote>
-          <blockquote>Platzhalter 2</blockquote>
-          <blockquote>Platzhalter 3</blockquote>
-          <blockquote>Platzhalter 4</blockquote>
+          <div className="ticker-container">
+            <ul>
+              <li>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</li>
+              <li>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</li>
+              <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
+              <li>Platzhalter 1</li>
+              <li>Platzhalter 2</li>
+            </ul>
+            <ul aria-hidden="true">
+              <li>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</li>
+              <li>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</li>
+              <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
+              <li>Platzhalter 1</li>
+              <li>Platzhalter 2</li>
+            </ul>
+          </div>
       </section>
 
       <section id="Home-Content">
 
-        <div>
+        <div className="home-imagebox">
           <h2>Vision</h2>
-          <img src="#" alt="Cheesy striking a pose" />
+          <Image
+            src="/images/home-aboutme.jpg"
+            alt="Cheesy striking a pose"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div>
+        <div className="home-textbox">
           <h3>Das bin ich!</h3>
           <p>
             Ich bin Cheesy: neugierig, offen und voller Leidenschaft für Musik und Tanz. Wenn Musik meine Stimmung hebt, wird sie zur Bewegung, zum Ausdruck und zum puren Lebensgefühl. Diese Freude am Line Dance möchte ich teilen – mit Menschen, die bereit sind, Neues zu entdecken und gemeinsam die Energie der Musik zu erleben.
@@ -59,11 +73,16 @@ export default function Home() {
           <a href="#" className="button">Weiterlesen</a>
         </div>
 
-        <div>
+        <div className="home-imagebox">
           <h2>Kurse</h2>
-          <img src="#" alt="Cheesy at an award ceremony" />
+          <Image
+            src="/images/home-award.jpg"
+            alt="Cheesy at an award ceremony"
+            fill
+            className="object-cover"
+          />
         </div>
-        <div>
+        <div className="home-textbox">
           <h3>Meine Kurse</h3>
           <p>
             Line Dance verbindet Musik, Bewegung und Gemeinschaft. In meinen Kursen treffen sich Erwachsene jeden Alters, die Spaß an Musik haben und sich gerne bewegen. Hier findest du Ausgleich, Freude und Menschen, mit denen Tanzen einfach guttut.
@@ -71,77 +90,83 @@ export default function Home() {
           <a href="#" className="button">Mehr Details</a>
         </div>
 
-        <div>
+        <div className="home-textbox">
           <h3>Wissen, das weiter tanzt</h3>
           <p>
             Manchmal reicht ein Kurs einfach nicht aus – deshalb habe ich mein Wissen, meine Erfahrungen und viele Tipps in meinem eigenen Buch gesammelt. Und wer ein bisschen frischen Wind beim Tanzen mag: Meine Fächer gibt’s auch hier.
           </p>
           <a href="#" className="button">Jetzt entdecken</a>
         </div>
-        <div>
+        <div className="home-imagebox">
           <h2>Buch</h2>
-          <img src="#" alt="Depiction of the Line Dance Book" />
+          <Image
+            src="/images/book-hands.jpg"
+            alt="Depiction of the Line Dance book"
+            fill
+            className="object-cover"
+          />
         </div>
 
       </section>
 
-      <section id="home-quote">
-        <blockquote>
-          "Wir machen keine Fehler, wir tanzen Variationen!"
-        </blockquote>
-        <div>- Astrid</div>
+      <section id="home-quote" className="h-100 bg-[var(--kw-green)] flex justify-center items-center">
+        <div className="text-[var(--background)] font-bold w-[70%] flex flex-col gap-7">
+          <blockquote className="text-left text-4xl">
+            "Wir machen keine Fehler, wir tanzen Variationen!"
+          </blockquote>
+          <div className="text-right text-2xl">- Astrid</div>
+        </div>
       </section>
 
-      <footer>
-        <div id="footer-slogan">
-          <div>LineUp</div>
-          <div>by</div>
-          <div>Cheesy</div>
-        </div>
-
-        <img src="#" alt="Kaeswurm Logo" />
-
-        <div id="contact-information-1">
-          <div>
-            <h4>Kontakt</h4>
-            <ul>
-              <li>
-                <p>Email:</p>
-                <a href="astrid@kaeswurm.de">astrid@kaeswurm.de</a>
-              </li>
-              <li>
-                <p>Instagram:</p>
-                <a href="https://www.instagram.com/astrid_kaeswurm">@astrid_kaeswurm</a>
-              </li>
-              <li>
-                <p>Facebook:</p>
-                <a href="https://www.facebook.com/LD.Cheesy">Astrid Kaeswurm</a>
-              </li>
-            </ul>
+      <footer className="flex flex-col h-100">
+        <div className="flex flex-row items-center gap-20">
+          <div id="footer-slogan" className="ml-5 text-8xl font-bold h">
+            <div>LineUp</div>
+            <div>by</div>
+            <div>Cheesy</div>
           </div>
-          <div>
-            <h4>Adresse</h4>
-            <p>Marzoller Weg 21</p>
-            <p>83451 Piding</p>
-            <br />
-            <p>Telefon:</p>
-            <p>0170 3171206</p>
+
+          <img className="ml-auto h-24" src="kaeswurm-logo.svg" alt="Kaeswurm Logo" />
+
+          <div id="contact-information" className="flex gap-10 mr-20">
+            <div className="flex-none">
+              <h4>Kontakt</h4>
+              <ul className="flex flex-col gap-3 pt-3;">
+                <li>
+                  <p>Email:</p>
+                  <a href="mailto://astrid@kaeswurm.de">astrid@kaeswurm.de</a>
+                </li>
+                <li>
+                  <p>Instagram:</p>
+                  <a href="https://www.instagram.com/astrid_kaeswurm">@astrid_kaeswurm</a>
+                </li>
+                <li>
+                  <p>Facebook:</p>
+                  <a href="https://www.facebook.com/LD.Cheesy">Astrid Kaeswurm</a>
+                </li>
+              </ul>
+            </div>
+            <div className="flex-none">
+              <h4 className="pb-3">Adresse</h4>
+              <p>Marzoller Weg 21</p>
+              <p>83451 Piding</p>
+              <br />
+              <p>Telefon:</p>
+              <p>0170 3171206</p>
+            </div>
           </div>
         </div>
-
-        <hr />
-
-        <div id="contact-information-2">
+        <hr className="mt-auto"/>
+        <div id="footer-bottom" className="flex items-center gap-10 p-6 px-10">
           <p>© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
 
-          <div>
-            <div>
+            <div className="flex ml-auto gap-4">
               <a href="https://www.instagram.com/astrid_kaeswurm"><img src="#" alt="Instagram Logo" /></a>
               <a href="https://www.facebook.com/LD.Cheesy"><img src="#" alt="Facebook Logo" /></a>
             </div>
             <a href="#">Datenschutz</a>
             <a href="#">Impressum</a>
-          </div>
+
         </div>
 
       </footer>

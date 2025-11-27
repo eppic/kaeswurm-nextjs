@@ -36,6 +36,10 @@ blockquote {
   font-style: normal;
 }
 
+h4 {
+  @apply font-bold text-lg;
+}
+
 /*/////////////////////////////////////////////////////*/
 
 /* Reusable Custom Classes */
@@ -45,6 +49,7 @@ blockquote {
   background: var(--button-bg);
   color: var(--background);
   transition: background 0.2s;
+  max-width: fit-content;
 }
 
 .button:hover {
@@ -55,31 +60,93 @@ blockquote {
 
 .header-links > a {
   @apply px-7
-
 }
 
 #hero {
   position: relative;
   overflow: hidden;
   @apply h-140 p-10;
-
 }
 
 #hero h1 {
   color: var(--background);
   font-weight: bold;
   @apply text-8xl;
-
 }
+
+.hero-bg {
+  position: absolute !important;
+  inset: 0;
+  z-index: -1;
+}
+
+/* Footer Elements */
+
+/* Fact Ticker */
 
 #fact-ticker {
   background-color: var(--button-bg);
   color: var(--background);
-  @apply h-16 flex ;
+  position: relative;
+  @apply h-16 flex;
 }
 
+.ticker-container {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+}
+
+.ticker-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  flex-shrink: 0;
+  min-width: 100%;
+  animation: scroll 26s linear infinite;
+}
+
+.ticker-container ul li:last-child {
+  @apply mr-7;
+}
+
+@keyframes scroll {
+  to  {
+    transform: translateX(-100%);
+  }
+}
 
 /*Home-Boxes*/
-#Home-Content > div { 
 
+#Home-Content {
+  display: flex;
+  flex-wrap: wrap;
 }
+
+#Home-Content > div { 
+  width: 50%;
+  @apply h-160 ;
+}
+
+#Home-Content h2 {
+  z-index: +1;
+  color: var(--background);
+  font-weight: bold;
+  @apply text-8xl p-8 absolute;
+}
+
+#Home-Content h3 {
+  font-weight: bold;
+}
+
+.home-textbox {
+  @apply  p-16 flex flex-col justify-center gap-6;
+}
+
+.home-imagebox {
+  @apply relative w-full h-48;
+}
+
+
