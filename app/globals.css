@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+
+@layer base {
+
 :root {
   --background: #ffffff;
   --foreground: #000000;
@@ -36,13 +39,18 @@ blockquote {
   font-style: normal;
 }
 
+
 h4 {
   @apply font-bold text-lg;
 }
 
+} /* tailwind layer base end*/
+
 /*/////////////////////////////////////////////////////*/
 
 /* Reusable Custom Classes */
+
+@layer components {
 
 .button {
   @apply inline-block p-5 px-8 text-center;
@@ -81,6 +89,27 @@ h4 {
 }
 
 /* Footer Elements */
+
+.footer-circle {
+  content: "";
+  position: absolute;
+  top: 50%;
+  background: var(--kw-red);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.fc-sm {
+  transform: translate(0%, -50%);
+  @apply h-54 w-54;
+}
+
+.fc-lg {
+  transform: translate(15%, -50%);
+  @apply h-195 w-240;
+}
+
+
 
 /* Fact Ticker */
 
@@ -150,3 +179,4 @@ h4 {
 }
 
 
+} /* tailwind layer components end */

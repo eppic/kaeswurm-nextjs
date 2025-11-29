@@ -118,20 +118,23 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="flex flex-col h-100">
-        <div className="flex flex-row items-center gap-20">
-          <div id="footer-slogan" className="ml-5 text-8xl font-bold h">
+      <footer className="flex flex-col overflow-hidden">
+        <div className="flex flex-row h-100 items-center gap-20">
+          <div id="footer-slogan" className="ml-5 text-8xl font-bold">
             <div>LineUp</div>
             <div>by</div>
             <div>Cheesy</div>
           </div>
 
-          <img className="ml-auto h-24" src="kaeswurm-logo.svg" alt="Kaeswurm Logo" />
+          <div className="flex items-center justify-center h-24 ml-auto relative">
+            <img className="h-18" src="kaeswurm-logo.svg" alt="Kaeswurm Logo" />
+            <div className="footer-circle fc-sm"></div> 
+          </div>
 
-          <div id="contact-information" className="flex gap-10 mr-20">
+          <div id="contact-information" className="relative flex justify-center gap-10 mr-20 text-[var(--background)]">
             <div className="flex-none">
-              <h4>Kontakt</h4>
-              <ul className="flex flex-col gap-3 pt-3;">
+              <h4 className="pb-3">Kontakt</h4>
+              <ul className="flex flex-col gap-3">
                 <li>
                   <p>Email:</p>
                   <a href="mailto://astrid@kaeswurm.de">astrid@kaeswurm.de</a>
@@ -154,15 +157,16 @@ export default function Home() {
               <p>Telefon:</p>
               <p>0170 3171206</p>
             </div>
+            <div className="footer-circle fc-lg"></div> 
           </div>
         </div>
-        <hr className="mt-auto"/>
-        <div id="footer-bottom" className="flex items-center gap-10 p-6 px-10">
-          <p>© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
+        <hr />
+        <div id="footer-bottom" className="flex h-20 items-center gap-10 p-6 px-10 text-[var(--background)]">
+          <p className="text-[var(--foreground)]">© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
 
-            <div className="flex ml-auto gap-4">
-              <a href="https://www.instagram.com/astrid_kaeswurm"><img src="#" alt="Instagram Logo" /></a>
-              <a href="https://www.facebook.com/LD.Cheesy"><img src="#" alt="Facebook Logo" /></a>
+            <div className="flex ml-auto gap-4 ">
+              <a href="https://www.instagram.com/astrid_kaeswurm"><img src="social/instagram.svg" alt="Instagram Logo" /></a>
+              <a href="https://www.facebook.com/LD.Cheesy"><img src="social/facebook.svg" alt="Facebook Logo" /></a>
             </div>
             <a href="#">Datenschutz</a>
             <a href="#">Impressum</a>
