@@ -1,188 +1,26 @@
 @import "tailwindcss";
 
-@layer base {
-
 :root {
   --background: #ffffff;
-  --foreground: #000000;
-
-  --kw-red: #8c3333;
-  --kw-green: #557a46;
-
-  --button-bg: #b12222;
-  --button-hover: #62db3d;
-
-  /* Font Sizes */
-  --size-h-fat-lg: 126;
-  --size-h-fat-sm: 20;
+  --foreground: #171717;
 }
 
-/* Pass colors to tailwind defaults */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-
-  --color-button-bg: var(--button-bg);
-  --color-button-hover: var(--button-hover);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
 }
 
-/* Tag overwriting*/
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-
-blockquote {
-  margin: 0;
-  padding: 0;
-  font-style: normal;
-}
-
-h4 {
-  @apply font-bold text-lg;
-}
-
-} /* tailwind layer base end*/
-
-/*/////////////////////////////////////////////////////*/
-
-/* Reusable Custom Classes */
-
-@layer components {
-
-.button {
-  @apply inline-block p-4 px-7 text-center tracking-tighter;
-  background: var(--button-bg);
-  color: var(--background);
-  transition: background 0.2s;
-  max-width: fit-content;
-  font-family: var(--font-encexp);
-  font-size: 0.8rem;
-
-}
-
-.button:hover {
-  background: var(--button-hover);
-}
-
-/*Header Elements*/
-
-.header-links > a {
-  @apply px-7
-}
-
-.hero {
-  position: relative;
-  overflow: hidden;
-  @apply h-128 p-8;
-}
-
-.hero-bg {
-  position: absolute !important;
-  inset: 0;
-  z-index: -1;
-}
-
-#hero-home h1 {
-  color: var(--background);
-  font-weight: bold;
-  font-family: var(--font-enccon);
-  @apply text-9xl tracking-tight;
-  line-height: 0.9;
-}
-
-
-/* Footer Elements */
-
-.footer-circle {
-  content: "";
-  position: absolute;
-  top: 50%;
-  background: var(--kw-red);
-  border-radius: 50%;
-  z-index: -1;
-}
-
-.fc-sm {
-  transform: translate(0%, -50%);
-  @apply h-54 w-54;
-}
-
-.fc-lg {
-  transform: translate(15%, -50%);
-  @apply h-195 w-240;
-}
-
-
-
-/* Fact Ticker */
-
-#fact-ticker {
-  background-color: var(--button-bg);
-  color: var(--background);
-  position: relative;
-  @apply h-13 flex;
-}
-
-.ticker-container {
-  display: flex;
-  overflow: hidden;
-  user-select: none;
-}
-
-.ticker-container ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  gap: 2rem;
-  align-items: center;
-  flex-shrink: 0;
-  min-width: 100%;
-  animation: scroll 26s linear infinite;
-}
-
-.ticker-container ul li:last-child {
-  @apply mr-7;
-}
-
-@keyframes scroll {
-  to  {
-    transform: translateX(-100%);
-  }
-}
-
-/*Home-Boxes*/
-
-#home-content {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#home-content > div { 
-  width: 50%;
-  @apply h-160 ;
-}
-
-#home-content h2 {
-  z-index: +1;
-  color: var(--background);
-  font-weight: bold;
-  @apply text-8xl p-8 absolute;
-}
-
-#home-content h3 {
-  font-weight: bold;
-}
-
-.home-textbox {
-  @apply  p-16 flex flex-col justify-center gap-6;
-}
-
-.home-imagebox {
-  @apply relative w-full h-48;
-}
-
-
-} /* tailwind layer components end */
