@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <main id="home">
       <header>
-        <nav className="h-22 flex items-center">
+        <nav className="h-19 flex items-center">
           <div className="header-links">
             <a href="#">Startseite</a>
             <a href="#">Kurse</a>
@@ -13,12 +13,12 @@ export default function Home() {
             <a href="#">Mehr entdecken</a>
           </div>
           <a className="ml-auto px-7" href="#"><img src="lang-uk.svg" alt="English" /></a>
-          <div className="w-50 h-full flex items-center justify-center bg-[var(--kw-red)]">
+          <div className="w-40 h-full flex items-center justify-center bg-[var(--kw-red)]">
             <img className="p-4 max-h-full" src="kaeswurm-logo.svg" alt="Kaeswurm Logo" />
           </div>
           
         </nav>
-        <section id="hero">
+        <section id="hero-home" className="hero">
             <h1>
               Line Dance lernen <br />
               mit Cheesy ist <br />
@@ -54,7 +54,7 @@ export default function Home() {
           </div>
       </section>
 
-      <section id="Home-Content">
+      <section id="home-content">
 
         <div className="home-imagebox">
           <h2>Vision</h2>

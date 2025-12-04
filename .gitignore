@@ -43,3 +43,7 @@ next-env.d.ts
 
 # private images
 /private_image_files
+
+
+# notes
+todo.md
