@@ -41,20 +41,27 @@ export function Header() {
 export function Footer() {
     return (
       <footer>
-        <div>
-          <div id="footer-slogan">
+        <div id="footer-top">
+          <div id="footer-slogan" className="typo-h1">
             <div>LineUp</div>
             <div>by</div>
             <div>Cheesy</div>
           </div>
 
-          <div>
-            <Image fill src="kaeswurm-logo.svg" alt="Kaeswurm Logo" />
+          <div id="footer-logo">
+            <div className="footer-circle fc-sm"></div>
+            <Image
+              src="kaeswurm-logo.svg" 
+              alt="Kaeswurm Logo" 
+              height={20}
+              width={20}
+            />
           </div>
 
           <div id="contact-information">
+            <div className="footer-circle fc-lg"></div>
             <div>
-              <h4>Kontakt</h4>
+              <h4 className="typo-promo">Kontakt</h4>
               <ul>
                 <li>
                   <p>Email:</p>
@@ -71,7 +78,7 @@ export function Footer() {
               </ul>
             </div>
             <div>
-              <h4>Adresse</h4>
+              <h4 className="typo-promo">Adresse</h4>
               <p>Marzoller Weg 21</p>
               <p>83451 Piding</p>
               <br />
@@ -80,16 +87,32 @@ export function Footer() {
             </div>
           </div>
         </div>
-        <hr />
+
+        <hr className="mt-auto"/>
+
         <div id="footer-bottom">
           <p>© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
 
-            <div>
-              <a href="https://www.instagram.com/astrid_kaeswurm"><Image fill src="social/instagram.svg" alt="Instagram Logo" /></a>
-              <a href="https://www.facebook.com/LD.Cheesy"><Image fill src="social/facebook.svg" alt="Facebook Logo" /></a>
-            </div>
-            <Link href="#">Datenschutz</Link>
-            <Link href="#">Impressum</Link>
+          <div className="footer-social-icons ml-auto">
+            <a href="https://www.instagram.com/astrid_kaeswurm">
+              <Image 
+                src="social/instagram.svg" 
+                alt="Instagram Logo" 
+                height={20}
+                width={20}
+              />
+            </a>
+            <a href="https://www.facebook.com/LD.Cheesy">
+              <Image 
+                src="social/facebook.svg" 
+                alt="Facebook Logo" 
+                height={20}
+                width={20}
+              />
+            </a>
+          </div>
+          <Link className="text-[var(--text-color-contrast)]" href="#">Datenschutz</Link>
+          <Link className="text-[var(--text-color-contrast)]" href="#">Impressum</Link>
 
         </div>
 

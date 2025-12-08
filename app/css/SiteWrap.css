@@ -1,3 +1,5 @@
+/* HEADER */
+
 header {
     display: flex;
     align-items: center;
@@ -41,3 +43,89 @@ nav a:hover, nav button:hover {
     width: auto;
     padding: 0.75rem 2rem;
 }
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 30rem;   
+    overflow: hidden;
+}
+
+#footer-top, #footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4.5rem;
+
+    padding: 1rem 3rem;
+}
+
+#footer-logo {
+    position: relative;
+    width: 6.75rem;
+    margin-left: auto;
+}
+
+#footer-logo img {
+    width: auto;
+}
+
+#contact-information {
+    color: var(--text-color-contrast);
+    position: relative;
+    display: flex;
+    gap: 4rem;
+    margin-right: 1rem;
+}
+
+#contact-information h4 {
+    font-weight: 600;
+    margin-bottom: 1.4rem;
+}
+
+#contact-information ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#contact-information a {
+    text-decoration: underline;
+}
+
+#footer-bottom {
+    gap: 3.6rem;
+    height: 5rem;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 1.25rem;
+}
+
+/* BACKGROUND DECORATION*/
+
+.footer-circle {
+  content: "";
+  position: absolute;
+  top: 50%;
+  background: var(--kw-red);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.fc-sm {
+  transform: translate(-25%, -50%);
+  height: 12rem;
+  width: 12rem;
+}
+
+.fc-lg {
+  transform: translate(-20%, -43%) rotate(-2deg);
+  height: 37rem;
+  width: 50rem;
+}
+
