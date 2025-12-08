@@ -1,0 +1,44 @@
+body {
+  font-family: var(--font-encode);
+  font-size: 1.125rem; /* 18px */
+}
+
+.typo-link {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  font-stretch: semi-condensed;
+}
+
+.typo-promo {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: -0.02em;
+  font-stretch: semi-condensed;
+}
+
+.typo-p {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -0.02em;
+  font-stretch: semi-condensed;
+}
+
+.typo-h2 {
+  font-size: 2.25rem; /* 36px */
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: -0.02em;
+  font-stretch: semi-condensed;
+}
+
+.typo-h1 {
+  font-size: 7.875rem; /* 126px */
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: -0.02em;
+  font-stretch: condensed;
+}

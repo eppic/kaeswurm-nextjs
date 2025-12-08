@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+    height: 4.8rem;
+
+    z-index: 1000;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav a, nav button {
+    cursor: pointer;
+    padding: 1.9rem;
+    transition: background 0.2s;
+}
+
+nav a:hover, nav button:hover {
+    background-color: var(--kw-red);
+    cursor: pointer;
+    color: var(--text-color-contrast);
+}
+
+.header-logo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--kw-red);
+}
+
+.header-logo img {
+    max-height: 100%;
+    width: auto;
+    padding: 0.75rem 2rem;
+}
