@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 :root {
-
     /* COLORS */
     --kw-red: #8c3333;
     --kw-red2: #b12222;
@@ -11,6 +10,8 @@
     --text-color: black;
     --text-color-contrast: white;
 
+    --bp-tablet: 1060px;
+    --bp-phone: 700px;
 }
 
 @theme inline {
@@ -24,8 +25,11 @@ body {
 }
 
 main {
-    flex: 1;   
+    flex: 1;
+    position: relative;
 }
 
 @import "./css/SiteWrap.css";
 @import "./css/Typography.css";
+@import "./css/Hero.css";
+@import "./css/HomeLayout.css";

@@ -1,0 +1,7 @@
+#hero {
+    background-color: turquoise;
+    height: 32rem;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}

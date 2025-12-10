@@ -8,6 +8,7 @@ header {
     position: sticky;
     top: 0;
     height: 4.8rem;
+    background-color: var(--text-color-contrast);
 
     z-index: 1000;
 }
@@ -109,7 +110,6 @@ footer {
 /* BACKGROUND DECORATION*/
 
 .footer-circle {
-  content: "";
   position: absolute;
   top: 50%;
   background: var(--kw-red);
