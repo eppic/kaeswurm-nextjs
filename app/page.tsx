@@ -1,10 +1,14 @@
 import Image from "next/image";
 import ButtonLink from "@/app/components/ButtonLink";
 import Hero from "@/app/components/Hero";
+import Ticker from "./components/Ticker";
 
 export default function Home() {
   return (
     <main id="home">
+      <Hero src='/images/home-hero.jpg' text="Line Dance lernen mit Cheesy ist easy!" btnhref='/kurse' btnch='Aktuelle Events' overlay={1}/>
+      <Ticker />
+
       <div className="home-boxes">
         <div className="home-img">
           <h2 className="typo-h1">Vision</h2>

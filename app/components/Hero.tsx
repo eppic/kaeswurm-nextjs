@@ -7,9 +7,10 @@ type HeroProps = {
     text: string;
     btnhref?: string;
     btnch?: string;
+    overlay?: number;
 }
 
-export default function Hero ({ src, text, btnhref, btnch}: HeroProps) {
+export default function Hero ({ src, text, btnhref, btnch, overlay}: HeroProps) {
     return (
         <section id="hero" >
             <Image
@@ -24,11 +25,12 @@ export default function Hero ({ src, text, btnhref, btnch}: HeroProps) {
             </h1>
 
             {btnhref && (
-                <div className="hero-button">
+                <div>
                     <ButtonLink href={btnhref}>{btnch}</ButtonLink>
                 </div>
             )}
 
+            {overlay === 1 && <div className="hero-img-overlay"></div>}
         </section>
     )
 }
