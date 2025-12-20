@@ -68,8 +68,10 @@ export default function Home() {
       </div>
 
       <div id="home-quote">
-        <blockquote className="typo-h2">“Wir machen keine Fehler, wir tanzen Variationen!”</blockquote>
-        <div><p className="typo-h2">- Astrid</p></div>
+        <div>
+          <div><blockquote className="typo-h2">“Wir machen keine Fehler, wir tanzen Variationen!”</blockquote></div>
+          <div><p className="typo-h2">- Astrid</p></div>
+        </div>
       </div>
     </main>
   );

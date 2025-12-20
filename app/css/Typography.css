@@ -42,3 +42,12 @@ p, .typo-p {
   letter-spacing: -0.02em;
   font-stretch: condensed;
 }
+
+
+@media (max-width: 700px) {
+
+  .typo-h1 {
+    font-size: 4rem; /* 64px */
+  }
+
+}

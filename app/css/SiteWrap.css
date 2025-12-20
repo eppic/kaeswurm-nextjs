@@ -42,8 +42,16 @@ nav a:hover, nav button:hover {
 .header-logo img {
     max-height: 100%;
     width: auto;
-    padding: 0.75rem 2rem;
+    padding: 0.75rem 0;
+    margin: 0 2rem;
 }
+
+@media (max-width: 840px) { /* ÜBER MICH VERSTECKEN */
+    nav ul li:nth-child(4) {
+        display: none;
+    }
+}
+
 
 /* FOOTER */
 
@@ -105,6 +113,15 @@ footer {
 .footer-social-icons {
     display: flex;
     gap: 1.25rem;
+    margin-left: auto;
+}
+
+hr {
+    z-index: -2;
+}
+
+.footer-mobile-kontakt, .footer-mobile-shape, .email-information {
+    display: none;
 }
 
 /* BACKGROUND DECORATION*/
@@ -129,3 +146,122 @@ footer {
   width: 50rem;
 }
 
+
+/* MOBILE */
+
+@media (max-width: 700px) { 
+
+    /* HEADER */
+
+    header {
+        height: 3.4rem;
+    }
+    
+    header nav, header > a{
+        display: none;
+    }
+
+    .header-logo img {
+        padding: 0.5rem 0;
+        margin: 0 1rem;
+    }
+
+    /* FOOTER */
+
+    #contact-information div:nth-child(2), .fc-lg, .footer-desktop-kontakt {
+        display: none;
+    }
+
+    .footer-mobile-kontakt, .footer-mobile-shape {
+        display: block;
+    }
+
+    footer hr {
+        color: var(--text-color-contrast);
+        z-index: 0;
+    }
+
+    footer {
+        position: relative;
+    }
+
+    .footer-mobile-shape {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 65%;
+        z-index: -1;
+        object-fit: fill;
+    }
+
+    #footer-top {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem 0.5rem;
+    }
+
+    #footer-logo {
+        order: 3;
+        width: auto;
+    }
+
+    #footer-logo img {
+        width: 3rem;
+    }
+    #footer-slogan {
+        width: 100%;
+    }
+
+    .fc-sm {
+        transform: translate(-25%, -50%);
+        height: 7rem;
+        width: 7rem;
+    }
+
+    #contact-information {
+        display: flex;
+        gap: 1rem;
+        margin-right: 1rem;
+        padding-top: 0.5rem ;
+    }
+
+    #contact-information h4 {
+        font-weight: 600;
+
+        margin-bottom: 0.75rem;
+    }
+
+    footer p, footer a {
+        font-size: 0.75rem;
+        font-stretch: expanded;
+    }
+
+    #contact-information br {
+        display: none;
+    }
+
+    .email-information {
+        display: block;
+    }
+
+    #footer-bottom {
+        color: var(--text-color-contrast);
+        padding: 1rem 0.5rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    #footer-bottom p:nth-child(1) {
+        width: 100%;
+        order: 4;
+    }
+
+    #footer-bottom > a:nth-child(4) {
+        margin-right: 1rem;
+    }
+
+    .footer-social-icons {
+        margin-left: 1rem;
+    }
+
+}

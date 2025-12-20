@@ -11,7 +11,7 @@ export function Header() {
           <li><Link href="/kurse">Kurse</Link></li>
           <li><Link href="/ausbildung">Ausbildung</Link></li>
           <li><Link href="/astrid">Über mich</Link></li>
-          <li><button>Mehr entdecken</button></li>
+          <li><Link href="/shop">Shop</Link></li>
         </ul>
       </nav>
 
@@ -35,7 +35,6 @@ export function Header() {
     </header>
   )
 }
-
 
 export function Footer() {
     return (
@@ -77,12 +76,14 @@ export function Footer() {
               </ul>
             </div>
             <div>
-              <h4 className="typo-promo">Adresse</h4>
+              <h4 className="typo-promo footer-mobile-kontakt">Kontakt</h4>
+              <h4 className="typo-promo footer-desktop-kontakt">Adresse</h4>
               <p>Marzoller Weg 21</p>
               <p>83451 Piding</p>
               <br />
               <p>Telefon:</p>
               <p>0170 3171206</p>
+              <p className="email-information">E-Mail: astrid@kaeswurm.de</p>
             </div>
           </div>
         </div>
@@ -92,7 +93,7 @@ export function Footer() {
         <div id="footer-bottom">
           <p>© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
 
-          <div className="footer-social-icons ml-auto">
+          <div className="footer-social-icons">
             <a href="https://www.instagram.com/astrid_kaeswurm">
               <Image 
                 src="social/instagram.svg" 
@@ -114,7 +115,13 @@ export function Footer() {
           <Link className="text-[var(--text-color-contrast)]" href="#">Impressum</Link>
 
         </div>
-
+        <Image
+          src="footer-mobile-shape.svg" 
+          alt="Background Vector" 
+          height={200}
+          width={200}
+          className="footer-mobile-shape"
+        />
       </footer>
     )
 }

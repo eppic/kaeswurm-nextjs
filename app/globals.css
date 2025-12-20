@@ -1,34 +1,7 @@
 @import "tailwindcss";
 
-:root {
-    /* COLORS */
-    --kw-red: #8c3333;
-    --kw-red2: #b12222;
-    --kw-green: #557a46;
-    --kw-green2: #7A9D54;
-    --kw-yellow: #F2EE9D;
-    --text-color: black;
-    --text-color-contrast: white;
-
-    --bp-tablet: 1060px;
-    --bp-phone: 700px;
-}
-
-@theme inline {
-
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh
-}
-
-main {
-    flex: 1;
-    position: relative;
-}
-
+@import "./css/_variables.css";
+@import "./css/_globals.css";
 @import "./css/SiteWrap.css";
 @import "./css/Typography.css";
 @import "./css/Hero.css";
