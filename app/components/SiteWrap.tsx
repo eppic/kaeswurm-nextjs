@@ -67,11 +67,11 @@ export function Footer() {
                 </li>
                 <li>
                   <p>Instagram:</p>
-                  <a href="https://www.instagram.com/astrid_kaeswurm">@astrid_kaeswurm</a>
+                  <a href="https://www.instagram.com/astrid_kaeswurm" target="_blank" rel="noopener noreferrer">@astrid_kaeswurm</a>
                 </li>
                 <li>
                   <p>Facebook:</p>
-                  <a href="https://www.facebook.com/LD.Cheesy">Astrid Kaeswurm</a>
+                  <a href="https://www.facebook.com/LD.Cheesy" target="_blank" rel="noopener noreferrer">Astrid Kaeswurm</a>
                 </li>
               </ul>
             </div>
@@ -94,7 +94,7 @@ export function Footer() {
           <p>© 2025 Astrid Kaeswurm – alle Rechte vorbehalten.</p>
 
           <div className="footer-social-icons">
-            <a href="https://www.instagram.com/astrid_kaeswurm">
+            <a href="https://www.instagram.com/astrid_kaeswurm" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="social/instagram.svg" 
                 alt="Instagram Logo" 
@@ -102,7 +102,7 @@ export function Footer() {
                 width={20}
               />
             </a>
-            <a href="https://www.facebook.com/LD.Cheesy">
+            <a href="https://www.facebook.com/LD.Cheesy" target="_blank" rel="noopener noreferrer">
               <Image 
                 src="social/facebook.svg" 
                 alt="Facebook Logo" 

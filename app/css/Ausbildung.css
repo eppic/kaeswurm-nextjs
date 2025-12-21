@@ -1,4 +1,13 @@
-#ausbildung-text {
+/* Allgemein */
+
+#ausb p, #ausbildung ul {
+    color: var(--text-color-gray);
+}
+
+
+/* Text */
+
+#ausb-text {
     margin: 4rem;
 
     display: flex;
@@ -6,18 +15,17 @@
     gap: 1rem;
 }
 
-#ausbildung-text p {
-    color: rgb(95, 95, 95);
-}
-
-#ausbildung-text p:nth-child(3) {
+#ausb-text p:nth-child(3) {
     padding-top: 0.75rem;
 }
 
 /* Skills */
 
-#ausbildung-skills {
+#ausb-skills {
     margin: 4rem;
+}
+
+#ausb-skills > div {
 
     display: flex;
     flex-direction: column;
@@ -27,30 +35,25 @@
     height: 45rem;
 }
 
-#ausbildung-skills h3 {
+#ausb-skills h3 {
     font-weight: 600;
     font-size: 1.4rem;
 }
 
-.ausbildung-skills-box {
+.ausb-skills-box {
     display: flex;
     flex-direction: column;
-
 
     width: 20rem;
 }
 
-.ausbildung-skills-box > div {
+.ausb-skills-box > div {
     display: flex;
 }
 
-#ausbildung-skills ul {
+#ausb-skills ul {
     list-style: disc;
     list-style-position: inside;
     
-    color: rgb(95, 95, 95);
 }
 
-#ausbildung-skills p {
-    color: rgb(95, 95, 95);
-}

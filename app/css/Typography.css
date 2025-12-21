@@ -19,10 +19,10 @@ body {
   font-stretch: semi-condensed;
 }
 
-p, .typo-p {
+#home p, footer p, header p, p, .typo-p {
   font-size: 1.125rem; /* 18px */
   font-weight: 400;
-  line-height: 120%;
+  line-height: 145%;
   letter-spacing: -0.02em;
   font-stretch: semi-condensed;
 }
@@ -35,7 +35,23 @@ p, .typo-p {
   font-stretch: semi-condensed;
 }
 
-.typo-h1 {
+.typo-h3 {
+  font-size: 1.5rem; /* 24px */
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: -0.02em;
+  font-stretch: semi-condensed;
+}
+
+h1 {
+  font-size: 7.875rem; /* 126px */
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: -0.02em;
+  font-stretch: expanded;
+}
+
+#home .typo-h1, footer .typo-h1 {
   font-size: 7.875rem; /* 126px */
   font-weight: 600;
   line-height: 90%;

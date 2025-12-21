@@ -1,16 +1,14 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Image from "next/image";
 import ButtonLink from "./ButtonLink";
 
 type HeroProps = {
     src: string;
     text: string;
-    btnhref?: string;
-    btnch?: string;
-    overlay?: number;
+    children?: ReactNode;
 }
 
-export default function Hero ({ src, text, btnhref, btnch, overlay}: HeroProps) {
+export default function Hero ({ src, text, children}: HeroProps) {
     return (
         <section id="hero" >
             <Image
@@ -24,13 +22,8 @@ export default function Hero ({ src, text, btnhref, btnch, overlay}: HeroProps) 
                 {text}
             </h1>
 
-            {btnhref && (
-                <div>
-                    <ButtonLink href={btnhref}>{btnch}</ButtonLink>
-                </div>
-            )}
+            {children}
 
-            {overlay === 1 && <div className="hero-img-overlay"></div>}
         </section>
     )
 }

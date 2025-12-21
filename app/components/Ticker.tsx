@@ -1,18 +1,18 @@
-import React from "react";
+import React, { ReactNode } from "react";
 
-export default function Ticker () {
+type TickerProps = {
+    children: ReactNode;
+}
+
+export default function Ticker ({children}:TickerProps) {
     return (
         <section id="ticker" >
             <div className="ticker-container">
                 <ul>
-                    <li>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</li>
-                    <li>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</li>
-                    <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
+                    {children}
                 </ul>
                 <ul aria-hidden="true">
-                    <li>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</li>
-                    <li>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</li>
-                    <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
+                    {children}
                 </ul>
             </div>
         </section>

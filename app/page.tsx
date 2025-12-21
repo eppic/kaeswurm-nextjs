@@ -6,8 +6,17 @@ import Ticker from "./components/Ticker";
 export default function Home() {
   return (
     <main id="home">
-      <Hero src='/images/home-hero.jpg' text="Line Dance lernen mit Cheesy ist easy!" btnhref='/kurse' btnch='Aktuelle Events' overlay={1}/>
-      <Ticker />
+      <Hero src='/images/home-hero.jpg' text="Line Dance lernen mit Cheesy ist easy!">
+        <div>
+          <ButtonLink href="/kurse">Aktuelle Kurse</ButtonLink>
+        </div>
+        <div className="hero-img-overlay" />
+      </Hero>
+      <Ticker>
+        <li>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</li>
+        <li>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</li>
+        <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
+      </Ticker>
 
       <div className="home-boxes">
         <div className="home-img">

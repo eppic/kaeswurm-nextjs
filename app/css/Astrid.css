@@ -1,0 +1,57 @@
+/* Allgemein */
+
+#astrid p {
+    color: var(--text-color-gray);
+}
+
+/* Hero Fix */
+
+#astrid #hero img {
+    object-position: 50% 18%;
+}
+
+.hero-gradient {
+    position: absolute;
+    background-image: linear-gradient(to bottom right, #00000048, #ffffff00);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+#astrid #hero h1 {
+    max-width: 32rem;
+}
+
+/* Content */
+
+#astr-text {
+    margin: 4rem 7.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    max-width: 80rem;
+}
+
+.astr-short {
+    display: flex;
+    gap: 4rem;
+}
+
+.astr-short > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.75rem;
+}
+
+.astr-short img {
+    width: 100rem;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 18%;
+    border-radius: 0.25rem;
+}

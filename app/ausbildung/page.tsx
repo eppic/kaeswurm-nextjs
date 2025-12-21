@@ -6,11 +6,11 @@ import Image from 'next/image';
 
 export default function Ausbildung() {
   return (
-    <main id='ausbildung'>
+    <main id='ausb'>
       <Hero src='/images/kurse-hero.jpg' text='Ausbildung' />
       <Ticker />
       
-      <section id='ausbildung-text'>
+      <section id='ausb-text'>
         <h2 className='typo-h2'>Line-Dance-Trainer*innen-Ausbildung</h2>
         <p>nach Astrid Kaeswurm</p>
         <p>
@@ -18,9 +18,11 @@ export default function Ausbildung() {
         </p>
       </section>
 
-      <section id='ausbildung-skills'>
+      <section id='ausb-skills'>
         <h2 className='typo-h2'>Das lernst du</h2>
-          <div className='ausbildung-skills-box'>
+        <div>
+          
+          <div className='ausb-skills-box'>
             <div>
               <Image
                 src="/images/icons/smiley.svg"
@@ -46,7 +48,7 @@ export default function Ausbildung() {
             </ul>
           </div>
           
-          <div className='ausbildung-skills-box'>
+          <div className='ausb-skills-box'>
             <div>
               <Image
                 src="/images/icons/smiley.svg"
@@ -69,7 +71,7 @@ export default function Ausbildung() {
             </ul>
           </div>
 
-          <div className='ausbildung-skills-box'>
+          <div className='ausb-skills-box'>
             <div>
               <Image
                 src="/images/icons/smiley.svg"
@@ -92,7 +94,7 @@ export default function Ausbildung() {
             </ul>
           </div>
 
-          <div className='ausbildung-skills-box'>
+          <div className='ausb-skills-box'>
             <div>
               <Image
                 src="/images/icons/smiley.svg"
@@ -117,7 +119,7 @@ export default function Ausbildung() {
             <p>Nach erfolgreichem Abschluss erhältst du ein Zertifikat. Regelmäßige Weiterbildung wird empfohlen.</p>
           </div>
 
-          <div className='ausbildung-skills-box'>
+          <div className='ausb-skills-box'>
             <div>
               <Image
                 src="/images/icons/smiley.svg"
@@ -132,7 +134,7 @@ export default function Ausbildung() {
             </p>
           </div>
 
-          <div className='ausbildung-skills-box'>
+          <div className='ausb-skills-box'>
             <div>
               <Image
                 src="/images/icons/smiley.svg"
@@ -152,7 +154,7 @@ export default function Ausbildung() {
             </ul>
           </div>
 
-          <div className='ausbildung-skills-box'>
+          <div className='ausb-skills-box'>
             <div>
               <Image
                 src="/images/icons/smiley.svg"
@@ -166,13 +168,14 @@ export default function Ausbildung() {
               <p><span>Prüfung auch ohne vorherige Kursteilnahme möglich</span></p>
           </div>
 
-          <div className='ausbildung-youtube-video'>
-            <a href="https://www.youtube.com/watch?v=TrCtzYnDlOQ">hier video</a>
+          <div className='ausb-youtube-video'>
+            <a href="https://www.youtube.com/watch?v=TrCtzYnDlOQ" target="_blank" rel="noopener noreferrer">hier video</a>
           </div>
+        </div>
 
       </section>
 
-      <section className='ausbildung-faq'>
+      <section className='ausb-faq'>
         <h2 className='typo-h2'>Häufig gestellte Fragen</h2>
         <div>
           <div>
@@ -208,49 +211,49 @@ export default function Ausbildung() {
         </div>
       </section>
 
-      <section className='ausbildung-gallery'>
+      <section className='ausb-gallery'>
         <h3>Bereits abgeschlossene Line Dance Ausbildung </h3>
         <p>Die folgenden Bilder zeigen die Absolventinnen und Absolventen der erfolgreich abgeschlossenen Line-Dance-Ausbildung.</p>
 
         <div>
           <Image
-            src="/images/ausbildung/gallery/1.jpg"
+            src="/images/ausb/gallery/1.jpg"
             alt='Woman Dancing'
             width={200}
             height={200}
           />
           <Image
-            src="/images/ausbildung/gallery/2.jpg"
+            src="/images/ausb/gallery/2.jpg"
             alt='Group Photo in a row'
             width={200}
             height={200}
           />
           <Image
-            src="/images/ausbildung/gallery/3.jpg"
+            src="/images/ausb/gallery/3.jpg"
             alt='Line Dancing'
             width={200}
             height={200}
           />
           <Image
-            src="/images/ausbildung/gallery/4.jpg"
+            src="/images/ausb/gallery/4.jpg"
             alt='Woman Dancing'
             width={200}
             height={200}
           />
           <Image
-            src="/images/ausbildung/gallery/5.jpg"
+            src="/images/ausb/gallery/5.jpg"
             alt='Line Dancing'
             width={200}
             height={200}
           />
           <Image
-            src="/images/ausbildung/gallery/6.jpg"
+            src="/images/ausb/gallery/6.jpg"
             alt='Line Dancing'
             width={200}
             height={200}
           />
           <Image
-            src="/images/ausbildung/gallery/7.jpg"
+            src="/images/ausb/gallery/7.jpg"
             alt='Man and Woman dancing'
             width={200}
             height={200}
@@ -258,7 +261,7 @@ export default function Ausbildung() {
         </div>
       </section>
 
-      <section className='ausbildung-gallery-neubichler-alm'>
+      <section className='ausb-gallery-neubichler-alm'>
         <Image
           src="/images/alm/1.jpg"
           alt='Dancing Room at Neubichler Alm'
@@ -273,7 +276,7 @@ export default function Ausbildung() {
         </div>
       </section>
 
-      <section id='ausbildung-email'>
+      <section id='ausb-email'>
         <h2 className='typo-h2'>Bleib auf dem Laufenden</h2>
         <p>
           Du möchtest mehr Informationen zur Line-Dance-Trainer:innen-Ausbildung nach Astrid Kaeswurm erhalten? <br/> Trage hier deine E-Mail-Adresse ein und wir informieren dich über Inhalte, Termine und Ablauf.

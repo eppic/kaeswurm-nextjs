@@ -19,8 +19,10 @@
 
 #hero h1 {
     z-index: 1;
-    color: var(--text-color-contrast);
     max-width: 57rem;
+
+    color: var(--text-color-contrast);
+    font-weight: normal;
 }
 
 #hero a {
@@ -37,25 +39,4 @@
     z-index: -1;
     top: 0;
     left: 0;
-}
-
-@media (max-width: 960px) {
-    #hero h1 {
-        font-size: 6rem;
-        max-width: 42.5rem;
-    }
-}
-
-@media (max-width: 770px) {
-    #hero h1 {
-        font-size: 5rem;
-        max-width: 35rem;
-    }
-}
-
-@media (max-width: 700px) {
-    #hero h1 {
-        font-size: 4rem;
-        max-width: 28.5rem;
-    }
 }
