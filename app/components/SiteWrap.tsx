@@ -63,7 +63,7 @@ export function Footer() {
               <ul>
                 <li>
                   <p>Email:</p>
-                  <a href="mailto://astrid@kaeswurm.de">astrid@kaeswurm.de</a>
+                  <a href="mailto:astrid@kaeswurm.de">astrid@kaeswurm.de</a>
                 </li>
                 <li>
                   <p>Instagram:</p>

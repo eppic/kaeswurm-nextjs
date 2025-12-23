@@ -43,6 +43,14 @@ body {
   font-stretch: semi-condensed;
 }
 
+.typo-48 {
+  font-size: 3rem; 
+  font-weight: 600;
+  line-height: 90%;
+  letter-spacing: -0.02em;
+  font-stretch: semi-condensed;
+}
+
 h1 {
   font-size: 7.875rem; /* 126px */
   font-weight: 600;

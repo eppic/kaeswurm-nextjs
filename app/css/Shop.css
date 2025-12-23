@@ -1,0 +1,146 @@
+/* Hero Fix */
+
+#shop #hero {
+    height: 14rem;
+    border-width: 0.2rem;
+    border-left: none;
+    border-right: none;
+}
+
+#shop #hero h1 {
+    color: var(--text-color);
+}
+
+/* Allgemein */
+
+#shop p {
+    color: var(--text-color-gray);
+}
+
+#shop-content {
+    margin: 3rem 4rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+/* Info */
+
+.shop-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+    max-width: 80%;
+}
+
+.shop-info h2 {
+    line-height: 120%;
+}
+
+.shop-info span {
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+/* Items */
+
+.shop-item-price{
+    color: var(--text-color);
+}
+
+#shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.3333%;
+    row-gap: 4rem;
+    justify-content: center;
+}
+
+.shop-item {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.shop-item-name span {
+    color: var(--text-color-gray);
+}
+
+.shop-item h3 {
+    line-height: 120%;
+}
+
+.shop-item-price {
+    text-align: end;
+}
+
+.shop-item-img-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-item-bg {
+    background-color: var(--kw-red-light);
+    width: 18rem;
+    height: 19rem;
+    border-radius: 0.75rem;
+}
+
+.shop-item-img-box img {
+    position: absolute;
+    object-fit: contain;
+    transform: scale(1.15);
+}
+
+.shop-item-disclaimer {
+    position: absolute;
+    top: -1rem;
+    right: 0;
+
+    background-color: var(--kw-red);
+    padding: 0.75rem;
+    color: white;
+    border-radius: 0.75rem;
+}
+
+.shop-item-name {
+    width: 95%;
+}
+
+@media (max-width: 700px) {
+
+    #shop #hero {
+        height: 10rem;
+    }
+
+    #shop-content {
+        margin: 2rem 1.5rem;
+    }
+
+    .shop-info {
+        gap: 2rem;
+        align-items: start;
+        max-width: unset;
+    }
+
+
+    /* Shop Items */
+
+    #shop-items .shop-item:nth-child(1) {
+        order: 1;
+    }
+    #shop-items .shop-item:nth-child(4) {
+        order: 2;
+        flex: 0 0 95%;
+    }
+    #shop-items .shop-item:nth-child(n + 2):not(:nth-child(4)) {
+        order: 3;
+    }
+
+
+}

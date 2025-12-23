@@ -15,14 +15,16 @@ export default function Astrid() {
         <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
       </Ticker>
 
-      <section id='astr-text'>
+      <section id='astr-content'>
         <div className='astr-short'>
+          <div className='astr-short-img'>
             <Image
-              src="/images/astr-portrait.jpg" 
+              src="/images/astr-portrait1.jpg" 
               alt="Portrait of Astrid" 
-              height={400}
               width={400}
-            />    
+              height={400}
+            />   
+          </div> 
           <div>
             <h2 className='typo-h2'>Hey, ich bin Astrid!</h2>
             <p>
@@ -31,43 +33,43 @@ export default function Astrid() {
           </div>
         </div>
 
-        <div>
+        <div className='astr-info'>
           <h3 className='typo-h3'>Mein Weg in Bewegung</h3>
           <p>
             Meine Tanzreise begann in den späten 1980er Jahren mit der klassischen Tanzschule in Bad Neuenahr-Ahrweiler -Formation Standard/Latein inklusive Tanzsportabzeichen Bronze bis Gold. 1996 entdeckte ich schließlich den Line Dance in Frankfurt am Main - ein Moment, der alles veränderte. Von 2007 bis 2011 folgte die Ausbildung zur Line Dance Trainerin (Examen NTA) und die Tätigkeit als NTA-Direktorin in Deutschland. 2010 erwarb ich die Lizenz als diplomierte Tanztrainerin für Country- und Westerntanz in Österreich. Seit 2012 leite ich den Tanzsportclub TSC Blau-Gold Bad Reichenhall. Darüber hinaus bilde ich unabhängig davon angehende Line-Dance-TrainerInnen aus, basierend auf meinem Buch “Von Anchor Step bis Weave”.
           </p>
         </div>
 
-        <div>
-          <div>
+        <div className='astr-history'>
+          <div className='astr-history-item'>
             <Image 
-              src="/images/astr/mauritius.jpg" 
+              src="/images/mauritius.jpg" 
               alt="People dancing on the beach"
-              height={40}
-              width={40}
+              height={400}
+              width={400}
             />
-            <div>
+            <div className='astr-history-info'>
               <h3 className='typo-h3'>Mauritius Workshop</h3>
               <p>2024</p>
             </div>
           </div>
-          <div>
+          <div className='astr-history-item'>
             <Image 
               src="/images/kurse-hero.jpg" 
               alt="Cheesy at an award ceremony"
-              height={40}
-              width={40}
+              height={400}
+              width={400}
             />
-            <div>
+            <div className='astr-history-info'>
               <h3 className='typo-h3'>Mauritius Workshop</h3>
               <p>2024</p>
             </div>
           </div>
-          <div>
+          <div className='astr-thumbnail-div'>
             <a href="https://www.facebook.com/share/v/1HRWN2FCg7/" target="_blank" rel="noopener noreferrer">
               <div>
                 <Image
-                  src="/images/facebook-thumbnail.jpg"
+                  src="/images/facebook-thumbnail.svg"
                   alt='Thumbnail for Video'
                   width={40}
                   height={40}
@@ -77,7 +79,7 @@ export default function Astrid() {
           </div>
         </div>
 
-        <div>
+        <div className='astr-more'>
           <div>
             <h3 className='typo-h3'>Was mich antreibt</h3>
             <p>
