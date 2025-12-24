@@ -43,3 +43,7 @@ next-env.d.ts
 
 # information
 /todo
+
+# exports
+out/
+out-*/
