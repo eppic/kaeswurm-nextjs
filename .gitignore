@@ -47,3 +47,6 @@ next-env.d.ts
 # exports
 out/
 out-*/
+
+# alte seite
+alte-seite/
