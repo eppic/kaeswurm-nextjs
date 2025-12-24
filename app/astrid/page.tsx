@@ -55,7 +55,7 @@ export default function Astrid() {
           </div>
           <div className='astr-history-item'>
             <Image 
-              src="/images/kurse-hero.jpg" 
+              src="/images/ausbildung-hero.jpg" 
               alt="Cheesy at an award ceremony"
               height={400}
               width={400}

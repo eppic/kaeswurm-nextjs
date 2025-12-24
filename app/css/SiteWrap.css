@@ -52,6 +52,18 @@ nav a:hover, nav button:hover {
     }
 }
 
+/* Hero Gradient / Overlay */
+
+.hero-gradient {
+    position: absolute;
+    background-image: linear-gradient(to bottom right, #00000048, #ffffff00);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
 
 /* FOOTER */
 

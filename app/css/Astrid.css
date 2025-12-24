@@ -10,16 +10,6 @@
     object-position: 50% 18%;
 }
 
-.hero-gradient {
-    position: absolute;
-    background-image: linear-gradient(to bottom right, #00000048, #ffffff00);
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    z-index: -1;
-    top: 0;
-    left: 0;
-}
 
 #astrid #hero h1 {
     max-width: 32rem;
@@ -103,10 +93,6 @@
     margin-bottom: 1rem;
 }
 
-.astr-thumbnail-div {
-    width: 33.33%;
-}
-
 .astr-thumbnail-div img {
     border-radius: 0.75rem;
     width: 100%;
@@ -148,7 +134,21 @@
         height: 16rem;
     }
 
-    /* astr-info */
+    /* astr-history */
+    .astr-history {
+        flex-direction: column;
+    }
+        
+    .astr-history-item {
+        width: 100%;
+    }
 
-    
+    .astr-more {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .astr-more > div {
+        width: 100%;
+    }
 }
