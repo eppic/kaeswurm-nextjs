@@ -5,7 +5,7 @@ import Link from "next/link";
 export function Header() {
   return (
     <header>
-      <nav className="typo-link">
+      <nav className=" desktop-nav typo-link">
         <ul>
           <li><Link href="/">Startseite</Link></li>
           <li><Link href="/kurse">Kurse</Link></li>
@@ -15,16 +15,20 @@ export function Header() {
         </ul>
       </nav>
 
-      <Link href="#" className="ml-auto">
-        <Image 
-          src="lang-uk.svg" 
-          alt="English" 
-          height={20}
-          width={20}
-        />
-      </Link>
+      <nav className="mobile-nav">
+        <details>
+          <summary>Menü aufklappen ▼</summary>
+          <ul>
+            <li><Link href="/">Startseite</Link></li>
+            <li><Link href="/kurse">Kurse</Link></li>
+            <li><Link href="/ausbildung">Ausbildung</Link></li>
+            <li><Link href="/astrid">Über mich</Link></li>
+            <li><Link href="/shop">Shop</Link></li>
+          </ul>
+        </details>
+      </nav>
 
-      <div className="header-logo">
+      <div className="header-logo ml-auto">
         <Image 
           src="kaeswurm-logo.svg" 
           alt="Kaeswurm Logo"

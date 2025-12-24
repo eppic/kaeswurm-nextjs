@@ -46,10 +46,8 @@ nav a:hover, nav button:hover {
     margin: 0 2rem;
 }
 
-@media (max-width: 840px) { /* ÜBER MICH VERSTECKEN */
-    nav ul li:nth-child(4) {
-        display: none;
-    }
+.mobile-nav {
+    display: none;
 }
 
 /* Hero Gradient / Overlay */
@@ -167,15 +165,47 @@ hr {
 
     header {
         height: 3.4rem;
+        position: relative;
     }
     
-    header nav, header > a{
-        display: none;
-    }
 
     .header-logo img {
         padding: 0.5rem 0;
         margin: 0 1rem;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        margin-left: 1rem;
+        position: absolute;
+        top: 20%;
+    }
+
+    .mobile-nav summary {
+        list-style-type: none;
+        background-color: white;
+        font-weight: 600;
+    }
+
+    nav ul {
+        flex-direction: column;
+        background-color: white;
+        gap: 2rem;
+        padding: 2rem;
+        width: 100%;
+    }
+
+    nav ul li {
+        width: 100%;
+    }
+
+    nav a {
+        padding: 0.75rem;
+        width: 100%;
     }
 
     /* FOOTER */

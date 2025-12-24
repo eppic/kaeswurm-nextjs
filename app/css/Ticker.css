@@ -9,6 +9,7 @@
 
     color: var(--text-color-contrast);
     font-weight: 600;
+    max-width: 100%;
 }
 
 .ticker-container {
@@ -35,3 +36,4 @@
     transform: translateX(-100%);
   }
 }
+
