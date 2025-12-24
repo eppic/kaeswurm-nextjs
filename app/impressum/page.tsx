@@ -55,8 +55,14 @@ export default function Impressum() {
       <h3 className='typo-h3'>Verbraucherstreitbeilegung / Universalschlichtungsstelle</h3 >
       <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
 
+      <h3 className='typo-h3'>Betroffenenrechte</h3>
+      <p>Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten personenbezogenen Daten sowie ein Recht auf Berichtigung, Löschung oder Einschränkung der Verarbeitung dieser Daten. Darüber hinaus haben Sie das Recht auf Datenübertragbarkeit.</p>
+      <p>Sofern die Verarbeitung Ihrer personenbezogenen Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO erfolgt, haben Sie gemäß Art. 21 DSGVO das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit Widerspruch gegen diese Verarbeitung einzulegen.</p>
+      <p>Sie können eine erteilte Einwilligung zur Verarbeitung personenbezogener Daten jederzeit mit Wirkung für die Zukunft widerrufen. Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit unter der im Impressum angegebenen Adresse an uns wenden.</p>
 
       <br /><br /><br /><br />
+
+
 
       <h2 className="typo-h2">Datenschutzerklärung</h2>
 
