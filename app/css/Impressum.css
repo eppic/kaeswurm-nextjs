@@ -1,0 +1,19 @@
+#impr #hero h1 {
+    color: var(--text-color);
+}
+
+#impr #hero {
+    height: auto;
+}
+
+#impr-content {
+    max-width: 80rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#impr-content h2  {
+    margin-bottom: 2rem;
+    text-decoration: underline;
+}

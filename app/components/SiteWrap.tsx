@@ -111,8 +111,8 @@ export function Footer() {
               />
             </a>
           </div>
-          <Link className="text-[var(--text-color-contrast)]" href="#">Datenschutz</Link>
-          <Link className="text-[var(--text-color-contrast)]" href="#">Impressum</Link>
+          <Link className="text-[var(--text-color-contrast)]" href="/impressum">Datenschutz</Link>
+          <Link className="text-[var(--text-color-contrast)]" href="/impressum">Impressum</Link>
 
         </div>
         <Image

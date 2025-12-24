@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @import "./css/_variables.css";
+@import "./css/Typography.css";
 @import "./css/_globals.css";
 @import "./css/SiteWrap.css";
-@import "./css/Typography.css";
 @import "./css/Hero.css";
 @import "./css/Ticker.css";
 @import "./css/HomeLayout.css";
@@ -13,3 +13,4 @@
 @import "./css/Astrid.css";
 @import "./css/Shop.css";
 @import "./css/Kurse.css";
+@import "./css/Impressum.css";
