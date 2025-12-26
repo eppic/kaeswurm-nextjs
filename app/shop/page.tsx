@@ -118,7 +118,7 @@ export default function Shop () {
               <h3 className='typo-h3'>Folding Fan „How does it start?” <span className='typo-p'>In burgundy red, cotton fabric, plastic ribs, English version</span></h3>
             </div>
             <div className='shop-item-price typo-h3'>
-              35,-€ zzgl. Versandkosten
+              6,-€ zzgl. Versandkosten
             </div>
           </div>
 
