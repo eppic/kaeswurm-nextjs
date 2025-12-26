@@ -233,14 +233,14 @@ export default function Ausbildung() {
                 />
                 <h3 className="typo-h3">Ist die Ausbildung offiziell anerkannt?</h3>
               </div>
-              <p>Die Ausbildung ist eine private Qualifikation nach dem Buch Astrid Kaeswurm, von Anchor Step bis Weave und wird nicht von offiziellen Sportverbänden anerkannt. Sie vermittelt jedoch praxisnahe Kompetenzen, die für den professionellen Unterricht von Line Dance erforderlich sind.</p>
+              <p>Die Ausbildung basiert auf dem Fachbuch "Von Anchor Step bis Weave" von Astrid Kaeswurm. <br />Die Ausbildung wird von offiziellen Sportverbänden nicht anerkannt. Sie vermittelt jedoch praxisnahe Kompetenzen, die Trainer*innen von Linedance-Gruppen kennen sollten.</p>
             </div>
           </div>
         </div>
 
         <div className='ausb-gallery'>
           <h3 className='typo-h2'>Blicke hinter die Kulissen der Ausbildung</h3>
-          <p>Hier siehst du viele Eindrücke aus den Ausbildungen der letzten Jahre: von den ersten Schritten in der Praxis bis zu besonderen Momenten hinter den Kulissen.</p>
+          <p>Hier siehst du Eindrücke aus den Ausbildungen der letzten Jahre: von den ersten Schritten in der Praxis bis zu besonderen Momenten hinter den Kulissen.</p>
 
           <div>
             <Image
@@ -292,7 +292,7 @@ export default function Ausbildung() {
           <p>
             Für unsere Ausbildung habe ich die idyllische Neubichler Alm im Salzburger Land ausgewählt - ein Ort, der Ruhe, Natur und Inspiration vereint. Hier kannst du dich ganz auf den Unterricht konzentrieren, in den Pausen wandern, durchatmen oder einfach die atemberaubende Bergkulisse genießen. Abends wird gemeinsam gegessen, getanzt und gelacht - denn Line Dance verbindet!
           </p>
-            <a href="#">auf Karte anzeigen</a>
+            <a href="https://maps.app.goo.gl/wjtHTf9QJ4hUsYaN8" target="_blank" rel="noopener noreferrer">auf Karte anzeigen</a>
         </div>
       </section>
 
