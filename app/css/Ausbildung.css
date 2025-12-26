@@ -237,3 +237,12 @@
 
     }
 }
+
+
+@media (max-width: 500px) {
+
+    #ausb-content {
+        max-width: 90%;
+    }
+
+}
