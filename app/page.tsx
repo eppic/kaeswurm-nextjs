@@ -63,7 +63,7 @@ export default function Home() {
           <div className="home-img-overlay"></div>
           <h2 className="typo-h1">Buch</h2>
           <Image
-            src="/images/book-hands.jpg"
+            src="/images/book-hands1.jpg"
             alt="Depiction of the Line Dance book"
             fill
           />
