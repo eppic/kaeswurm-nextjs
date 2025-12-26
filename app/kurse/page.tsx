@@ -38,7 +38,7 @@ export default function Kurse () {
                   <li>Kurs: 10er-Block</li>
                   <li>Leitung: Astrid „Cheesy“ Kaeswurm</li>
                   <li>Wann: Montag, 18:30-20:00 Uhr</li>
-                  <li>Schnupperstunde: 15.09., 18:30 Uhr (5 €)</li>
+                  <li>Schnupperstunde: 18:30 Uhr (5 €)</li>
                   <li>Ort: Reichenhaller Str. 15, 83451 Piding</li>
                   <li>Preis: Einführungspreis 100 €</li>
                 </ul>
