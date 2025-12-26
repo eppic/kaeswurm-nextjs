@@ -11,8 +11,8 @@ export default function Astrid() {
       </Hero>
       <Ticker>
         <li>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</li>
-        <li>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</li>
         <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
+        <li>Musik zu hören, zu fühlen und in Tanz umzusetzen ist einfach toll.</li>
       </Ticker>
 
       <section id='astr-content'>
@@ -36,7 +36,7 @@ export default function Astrid() {
         <div className='astr-info'>
           <h3 className='typo-h3'>Mein Weg in Bewegung</h3>
           <p>
-            Meine Tanzreise begann in den späten 1980er Jahren mit der klassischen Tanzschule in Bad Neuenahr-Ahrweiler -Formation Standard/Latein inklusive Tanzsportabzeichen Bronze bis Gold. 1996 entdeckte ich schließlich den Line Dance in Frankfurt am Main - ein Moment, der alles veränderte. Von 2007 bis 2011 folgte die Ausbildung zur Line Dance Trainerin (Examen NTA) und die Tätigkeit als NTA-Direktorin in Deutschland. 2010 erwarb ich die Lizenz als diplomierte Tanztrainerin für Country- und Westerntanz in Österreich. Seit 2012 leite ich den Tanzsportclub TSC Blau-Gold Bad Reichenhall. Darüber hinaus bilde ich unabhängig davon angehende Line-Dance-TrainerInnen aus, basierend auf meinem Buch “Von Anchor Step bis Weave”.
+            Meine Tanzreise begann in den späten 1980er Jahren mit der klassischen Tanzschule in Bad Neuenahr-Ahrweiler -Formation, Standard/Latein inklusive Tanzsportabzeichen Bronze bis Gold. 1996 entdeckte ich schließlich den Line Dance in Frankfurt am Main - ein Moment, der alles veränderte. Von 2007 bis 2011 folgte die Ausbildung zur Line Dance Trainerin (Examen NTA) und die Tätigkeit als NTA-Direktorin in Deutschland. 2010 erwarb ich die Lizenz als diplomierte Tanztrainerin für Country- und Westerntanz in Österreich. Seit 2012 leite ich den Tanzsportclub TSC Blau-Gold Bad Reichenhall. Darüber hinaus bilde ich unabhängig davon angehende Line-Dance-TrainerInnen aus, basierend auf meinem Buch “Von Anchor Step bis Weave”.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ export default function Astrid() {
               width={400}
             />
             <div className='astr-history-info'>
-              <h3 className='typo-h3'>Mauritius Workshop</h3>
-              <p>2024</p>
+              <h3 className='typo-h3'>Weltrekord aufgestellt</h3>
+              <p>2025</p>
             </div>
           </div>
           <div className='astr-thumbnail-div'>
