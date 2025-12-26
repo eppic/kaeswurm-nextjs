@@ -192,16 +192,6 @@ export default function Ausbildung() {
                 </ul>
             </div>
 
-            <div className='ausb-youtube-video'>
-              <a href="https://www.youtube.com/watch?v=TrCtzYnDlOQ" target="_blank" rel="noopener noreferrer">
-                <Image
-                  src="/images/ausb-yt-thumb.jpg"
-                  alt='Youtube Thumbnail'
-                  width={400}
-                  height={400}
-                />
-              </a>
-            </div>
           </div>
 
         </div>
