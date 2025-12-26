@@ -14,8 +14,8 @@ export default function Home() {
       </Hero>
       <Ticker>
         <li>Tanz bedeutet für mich pure Lebensfreude und Ausdruck.</li>
-        <li>Weltrekord auf der Schmittenhöhe - 929 Line Dancer auf 2000 Metern!</li>
         <li>Ich liebe es, Menschen durch Bewegung zu verbinden.</li>
+        <li>Musik zu hören, zu fühlen und in Tanz umzusetzen ist einfach toll.</li>
       </Ticker>
 
       <div className="home-boxes">
