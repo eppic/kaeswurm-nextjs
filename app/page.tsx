@@ -75,7 +75,7 @@ export default function Home() {
             <p>
               Manchmal reicht ein Kurs einfach nicht aus – deshalb habe ich mein Wissen, meine Erfahrungen und viele Tipps in meinem eigenen Buch gesammelt. Und wer ein bisschen frischen Wind beim Tanzen mag: Meine Fächer gibt’s auch hier.
             </p>
-            <div><ButtonLink href="/buch">Jetzt entdecken</ButtonLink></div>
+            <div><ButtonLink href="/shop">Jetzt entdecken</ButtonLink></div>
           </div>
         </div>
       </div>
