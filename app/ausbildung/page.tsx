@@ -30,7 +30,7 @@ export default function Ausbildung() {
           <h2 className='typo-h2'>Line-Dance-Trainer*innen-Ausbildung</h2>
           <p>nach Astrid Kaeswurm</p>
           <p>
-            Eine zeitgemäße Ausbildung für alle, die Line Dance professioneller unterrichten möchten - praxisnah, strukturiert und stilübergreifend (Country, Modern & Mixed). Der Lehrgang wurde von einer Line-Dance-Trainerin für Line Dancer entwickelt und orientiert sich an den Erfahrungen aus dem Unterricht mit ganz unterschiedlichen Gruppen. <br />Du erhältst fundierte didaktische und methodische Impulse, die dich dabei unterstützen, Gruppen sicher anzuleiten und deinen Unterricht abwechslungsreich zu gestalten. Neben Technik, Musikalität und Choreografie stehen auch Unterrichtsaufbau, Kommunikation und der Umgang mit verschiedenen Leistungsniveaus im Fokus.
+            Eine zeitgemäße Ausbildung für alle, die Line Dance professioneller unterrichten wollen - praxisnah, strukturiert und stilübergreifend (Country, Modern & Mixed). Der Lehrgang wurde von einer Line-Dance-Trainerin für Line Dancer entwickelt und orientiert sich an den Erfahrungen aus dem Unterricht mit ganz unterschiedlichen Gruppen. <br />Du erhältst fundierte didaktische und methodische Impulse, die dich dabei unterstützen, Gruppen sicher anzuleiten und deinen Unterricht abwechslungsreich zu gestalten. Neben Technik, Musikalität und Choreografie stehen auch Unterrichtsaufbau, Kommunikation und der Umgang mit verschiedenen Leistungsniveaus im Fokus.
           </p>
         </div>
 
@@ -221,7 +221,7 @@ export default function Ausbildung() {
                 />
                 <h3 className="typo-h3">Ab welchem Alter kann ich an der Ausbildung teilnehmen?</h3>
               </div>
-              <p>Die Line-Dance-Trainer:innen-Ausbildung richtet sich an Teilnehmer:innen ab 18 Jahren. Voraussetzung ist die Freude am Tanzen und der Wunsch, Line Dance professionell unterrichten zu möchten - unabhängig vom bisherigen Werdegang.</p>
+              <p>Die Line-Dance-Trainer:innen-Ausbildung richtet sich an Teilnehmer:innen ab 18 Jahren. Voraussetzung ist die Freude am Tanzen und der Wunsch, Line Dance professionell unterrichten zu wollen - unabhängig vom bisherigen Werdegang.</p>
             </div>
             <div>
               <div>
