@@ -116,16 +116,16 @@ export default function Kurse () {
                 <summary><p>Line Dance Ferien & Festival in Oberstaufen, DE</p><img src="/fold.svg" alt="Fold Tab" /></summary>
                 
                 <ul>
-                  <li>Termin: Sonntag, 17. Mai – Sonntag, 31. Mai 2026</li>
+                  <li>Termin: Sonntag, 17. Mai - Sonntag, 24. Mai 2026</li>
                   <li>Event: Line Dance Ferien & Festival</li>
                   <li>Ort: Kurhaus Oberstaufen, Oberstaufen, DE</li>
                   <li>Adresse: Argenstraße 3, 87534 Oberstaufen, Deutschland</li>
-                  <li>Programm: Line Dance Workshops, Abend‑Partys, DJ, Rahmen‑Programm, Wellness & Bewegung im Allgäu</li>
+                  <li>Programm: Line Dance Workshops, Abend-Partys, DJ, Rahmen-Programm, Wellness & Bewegung im Allgäu</li>
                   <br />
                   <li>Kosten (Auswahl):
                     <ul className='kurs-li-nodeco'>
-                      <li>Tages‑Ticket ca. 45 €</li>
-                      <li>Abend‑Ticket ab ca. 20 €</li>
+                      <li>Tages-Ticket ca. 45 €</li>
+                      <li>Abend-Ticket ab ca. 20 €</li>
                       <li>Paketpreise inkl. Hotelaufenthalt variieren nach Zimmer & Dauer</li>
                     </ul>
                   </li>
@@ -137,12 +137,12 @@ export default function Kurse () {
                 <summary><p>Line Dance AlpFestival in Kaprun, AT</p><img src="/fold.svg" alt="Fold Tab" /></summary>
                 
                   <ul>
-                    <li>Termin: Donnerstag, 18. Juni – Sonntag, 21. Juni 2026</li>
-                    <li>Event: Line Dance AlpFestival – Workshops, Live‑Bands, DJ & Weltrekord‑Attempt</li>
-                    <li>Ort: Festival‑Gelände am Parkplatz Maiskogel, Kaprun, AT</li>
+                    <li>Termin: Donnerstag, 18. Juni - Sonntag, 21. Juni 2026</li>
+                    <li>Event: Line Dance AlpFestival - Workshops, Live-Bands, DJ & Weltrekord-Attempt</li>
+                    <li>Ort: Festival-Gelände am Parkplatz Maiskogel, Kaprun, AT</li>
                     <li>Adresse: Kitzsteinhornplatz 8, 5710 Kaprun, Österreich</li>
-                    <li>Programm‑Highlights: Line Dance Workshops, DJ‑Nights, Live‑Musik, Weltrekord‑Workshop auf der Schmittenhöhe (Samstag)</li>
-                    <li>Kosten: Wochenend‑Pässe online erhältlich – Preis je nach Kategorie/Frühbucher</li>
+                    <li>Programm-Highlights: Line Dance Workshops, DJ-Nights, Live-Musik, Weltrekord-Workshop auf der Schmittenhöhe (Samstag)</li>
+                    <li>Kosten: Wochenend-Pässe online erhältlich - Preis je nach Kategorie/Frühbucher</li>
                     <li><a href="https://www.zellamsee-kaprun.com" target='_blank' rel="noopener noreferrer">Tickets</a></li>
                   </ul>
               </details>
