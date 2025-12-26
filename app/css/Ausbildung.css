@@ -53,6 +53,18 @@
     font-weight: 600;
 }
 
+@media (max-width: 750px) {
+    #ausb #hero .typo-h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 410px) {
+    #ausb #hero .typo-h1 {
+        font-size: 3rem;
+    }
+}
+
 
 /* Text */
 
