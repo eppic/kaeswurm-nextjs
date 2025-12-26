@@ -94,7 +94,7 @@ export default function Shop () {
                 fill
               />
               <div className='shop-item-bg' />
-              <div className='shop-item-disclaimer typo-h3'>Eng. Version</div>
+              <div className='shop-item-disclaimer typo-h3'>Engl. Version</div>
             </div>
             <div className='shop-item-name'>
               <h3 className='typo-h3'>From Anchor Step to Weave - A Reference Book for Line Dancers <span className='typo-p'>by Astrid Kaeswurm</span></h3>
@@ -112,7 +112,7 @@ export default function Shop () {
                 fill
               />
               <div className='shop-item-bg' />
-              <div className='shop-item-disclaimer typo-h3'>Eng. Version</div>
+              <div className='shop-item-disclaimer typo-h3'>Engl. Version</div>
             </div>
             <div className='shop-item-name'>
               <h3 className='typo-h3'>Folding Fan „How does it start?” <span className='typo-p'>In burgundy red, cotton fabric, plastic ribs, English version</span></h3>
