@@ -133,7 +133,7 @@ export default function Shop () {
           />
           <div>
             <h3 className='typo-h3'>Melde dich bei mir!</h3>
-            <ButtonLink href="mailto:astrid@kaeswurm.de?subject=Bestellung&body=Ich%20möchte%20folgende%20Inhalte%20bestellen:%0A%0A-%20[HIER%20INHALTE%20AUFLISTEN]%0A%0A%0AMeine%20Adresse:%0A%0AVor-%20und%20Nachname:%20%0AStraße%20und%20Hausnummer:%20%0APLZ und Wohnort:%20">Jetzt bestellen</ButtonLink>
+            <ButtonLink href="mailto:bestellung@linedance-buch.de?subject=Bestellung&body=Ich%20möchte%20folgende%20Inhalte%20bestellen:%0A%0A-%20[HIER%20INHALTE%20AUFLISTEN]%0A%0A%0AMeine%20Adresse:%0A%0AVor-%20und%20Nachname:%20%0AStraße%20und%20Hausnummer:%20%0APLZ und Wohnort:%20">Jetzt bestellen</ButtonLink>
           </div>
         </div>
       </section>
