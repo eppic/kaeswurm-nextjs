@@ -55,15 +55,12 @@ export default function Kurse () {
             <h3 className='typo-h3'>Einzelveranstaltungen & Workshops:</h3>
             <div>
               <details>
-                <summary><p>Line Dance Kurs in der Bar Oceans in Bad Reichenhall</p><img src="/fold.svg" alt="Fold Tab" /></summary>
-                
+                <summary><p>Workshop beim Tanz: Fest Gastein Linedance Edition</p><img src="/fold.svg" alt="Fold Tab" /></summary>
+
                 <ul>
-                  <li>Termin: Samstag, 27.12.</li>
-                  <li>Uhrzeit: 19:00-21:00 Uhr</li>
-                  <li>Ort: Bar Oceans, Spielbank Bad Reichenhall</li>
-                  <li>Leitung: Astrid Kaeswurm</li>
-                  <li>Webseite</li>
-                  <li>Facebook Informationen</li>
+                  <li>Termin: Samstag, 14.03.2026</li>
+                  <li>Ort: Kongresszentrum Bad Hofgastein</li>
+                  <li>Anmeldung, Infos & Zeitplan:  <a href="https://www.gastein.com/events/winter/linedance-edition/" target="_blank" rel="noopener noreferrer">Event-Link</a></li>
                 </ul>
               </details>
               <details>
